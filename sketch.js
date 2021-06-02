@@ -29,11 +29,10 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(230);
- 
 
   groundObject.display();
-  dustbinObj.display();
   paperObject.display();
+  dustbinObj.display();
 }
 function keyPressed(){
 	if(keyCode===UP_ARROW){
